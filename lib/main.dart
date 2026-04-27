@@ -10,6 +10,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    print('Main Branch');
     return MaterialApp(home: const HomeView());
   }
 }
